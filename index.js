@@ -4,7 +4,6 @@ let showTodos = document.querySelector(".todos-container");
 let todo;
 let localData = JSON.parse(localStorage.getItem("todo"))
 let todoList = localData || [];
-
 // creating a function to get unique id
 
 
